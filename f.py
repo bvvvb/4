@@ -41,7 +41,7 @@ def sgg(user):
       ok+=1
       gg = f'New Clime : {user} '
       SS(g(gg))
-      text = f"yo nigga iam @usaByte : @{user}"
+text = f"yo nigga iam @usaByte : @{user}"
 webhook = DiscordWebhook(url="https://discord.com/api/webhooks/1223059443407781918/0y2c2Ud8H4W_qKZ1MGYdDWktB9dObor2EI12KZg2K73JMLVPVNA4piIuST8tOF7Wt0og", content=text)
 response = webhook.execute()
 #us()
